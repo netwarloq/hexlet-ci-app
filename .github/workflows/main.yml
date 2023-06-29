@@ -21,5 +21,3 @@ jobs:
         uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.snyktoken }}
-        with:
-          SNYK_TOKEN: ${{ secrets.snyktoken }}
