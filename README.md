@@ -1,3 +1,4 @@
+![build status](https://github.com/netwarloq/hexlet-ci-app/actions/workflows/main.yml/badge.svg)
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
