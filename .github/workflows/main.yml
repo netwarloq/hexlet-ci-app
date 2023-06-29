@@ -22,4 +22,4 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.snyktoken }}
         with:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          SNYK_TOKEN: ${{ secrets.snyktoken }}
