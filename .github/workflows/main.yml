@@ -14,10 +14,11 @@ jobs:
       - run: make lint
 
   security:
+    environment: snyk
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         env:
-          SNYK_TOKEN: ${{ secrets.SNYKTOKEN }}
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
